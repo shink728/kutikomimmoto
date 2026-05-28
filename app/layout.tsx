@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title,
     description,
     type: "website",
-    images: [{ url: "/images/hero-store-owner.jpg", width: 1280, height: 960, alt: "店舗でスマートフォンを確認するオーナー" }],
+    images: [{ url: "/images/hero-customer-phone.png", width: 1448, height: 1086, alt: "来店後にスマートフォンでアンケートに回答するお客様" }],
   },
 };
 

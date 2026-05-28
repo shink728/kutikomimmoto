@@ -3,16 +3,20 @@ import { SectionTitle } from "@/components/ui/SectionTitle";
 
 const reasons = [
   {
-    title: "来店前の判断材料になる",
-    body: "お店を探しているお客様は、場所や営業時間とあわせて、実際に利用した方の感想も確認します。",
+    title: "ローカル検索の知名度要素に関わる",
+    body: "Googleのローカル検索では、関連性・距離・知名度などが考慮されます。口コミ数や評価は、知名度を判断する要素のひとつです。",
   },
   {
-    title: "店舗の魅力が伝わる",
-    body: "料理、接客、雰囲気などの具体的な声は、初めてのお客様が来店をイメージする助けになります。",
+    title: "競合店舗との比較で見られる",
+    body: "近くのお店を探すお客様は、検索結果やGoogleマップ上で複数店舗を並べ、口コミの量・評価・内容を比較します。",
   },
   {
-    title: "改善と再来店に活かせる",
-    body: "アンケートで集めた声は、サービス改善のヒントになり、LINEを通じた再来店の接点にもなります。",
+    title: "検索キーワードとの関連が伝わる",
+    body: "料理名、施術内容、接客、雰囲気などの具体的な感想が増えることで、店舗の特徴が検索ユーザーに伝わりやすくなります。",
+  },
+  {
+    title: "表示後の来店率にも影響する",
+    body: "検索結果に表示されたあとも、口コミの内容はクリック・電話・経路検索・来店判断を後押しする重要な材料になります。",
   },
 ];
 
@@ -21,11 +25,11 @@ export function ImportanceSection() {
     <section id="importance" className="section-space bg-white">
       <Container>
         <SectionTitle
-          eyebrow="WHY REVIEWS MATTER"
-          title="口コミは、来店前のお客様と店舗をつなぐ大切な情報です。"
-          description="Googleマップでお店を検討する場面では、店舗情報だけでなく、お客様自身の体験に基づく声も選択の参考になります。"
+          eyebrow="MEO POINT"
+          title="Google検索・マップで見つけられやすい店舗づくりに、口コミは欠かせません。"
+          description="MEOでは、店舗情報の整備だけでなく、実際のお客様の声が継続的に蓄積されていることも重要です。"
         />
-        <div className="grid gap-5 lg:grid-cols-3">
+        <div className="grid gap-5 lg:grid-cols-4">
           {reasons.map((reason, index) => (
             <article key={reason.title} className="rounded-3xl border border-slate-100 bg-slate-50 p-6 md:p-7">
               <span className="inline-flex rounded-full bg-brand-pale px-3 py-1 text-xs font-bold text-brand-dark">
@@ -36,9 +40,30 @@ export function ImportanceSection() {
             </article>
           ))}
         </div>
-        <div className="mt-8 rounded-2xl bg-brand-pale px-6 py-5 text-center text-sm font-bold leading-7 text-ink md:text-base">
-          だからこそ、満足したお客様が無理なく感想を残せる
-          <span className="text-brand-dark">「投稿しやすい導線」</span>を整えることが重要です。
+        <div className="mt-8 grid gap-5 lg:grid-cols-[.9fr_1.1fr]">
+          <div className="rounded-3xl bg-ink p-6 text-white md:p-7">
+            <p className="text-sm font-bold text-line">Googleローカル検索の考え方</p>
+            <h3 className="mt-3 text-2xl font-bold leading-snug">
+              「関連性・距離・知名度」のうち、口コミは知名度の土台づくりに関わります。
+            </h3>
+            <p className="mt-4 text-sm leading-7 text-white/78">
+              Google公式ヘルプでは、ローカル検索結果は主に関連性・距離・知名度に基づくと説明されています。口コミ数や評価も知名度の要素として扱われるため、自然な口コミを継続的に集めることがMEOの土台になります。
+            </p>
+          </div>
+          <div className="rounded-3xl bg-brand-pale p-6 md:p-7">
+            <p className="text-sm font-bold text-brand-dark">バズクチコミで支援するMEO土台</p>
+            <div className="mt-4 grid gap-3 sm:grid-cols-3">
+              {["口コミ数の蓄積", "具体的な感想の増加", "返信・分析の習慣化"].map((item) => (
+                <p key={item} className="rounded-2xl bg-white px-4 py-4 text-center text-sm font-bold text-ink shadow-sm">
+                  {item}
+                </p>
+              ))}
+            </div>
+            <p className="mt-5 text-sm font-bold leading-7 text-ink md:text-base">
+              上位表示を保証するものではありませんが、来店後の声を継続的に集める仕組みは、
+              <span className="text-brand-dark">Google検索・マップで選ばれるための基盤</span>になります。
+            </p>
+          </div>
         </div>
       </Container>
     </section>

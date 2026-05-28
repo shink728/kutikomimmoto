@@ -43,6 +43,13 @@ export const benefits = [
   "MEO対策の土台を作れる",
 ];
 
+export const trustPoints = [
+  "Googleポリシーに配慮した設計",
+  "口コミ投稿を条件にしない特典運用",
+  "お客様自身が確認・編集して投稿",
+  "LINE公式アカウントの初期設定も支援",
+];
+
 export const industries = ["飲食店", "美容室", "整体・整骨院", "エステ・サロン", "クリニック", "宿泊施設", "小売店"];
 
 export const faqs = [

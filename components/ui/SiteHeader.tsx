@@ -6,7 +6,7 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-30">
       <div className="bg-brand-pale px-4 py-2 text-center text-xs font-bold text-brand-dark sm:text-sm">
-        LINE × AIで、来店後のお客様の声を集めやすい導線へ
+        Googleポリシーに配慮｜口コミ投稿ではなくアンケート回答へのお礼として特典設計
       </div>
       <div className="border-b border-slate-100 bg-white/95 backdrop-blur">
         <Container className="flex h-16 items-center justify-between md:h-20">
@@ -14,10 +14,12 @@ export function SiteHeader() {
             <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand text-lg text-white">バ</span>
             <span className="text-lg">バズクチコミ</span>
           </Link>
-          <nav className="hidden items-center gap-7 text-sm font-medium text-slate-600 md:flex">
+          <nav className="hidden items-center gap-4 text-xs font-medium text-slate-600 lg:flex xl:gap-7 xl:text-sm">
             <Link href="/#importance" className="hover:text-line-dark">口コミの重要性</Link>
-            <Link href="/#features" className="hover:text-line-dark">機能</Link>
             <Link href="/#solution" className="hover:text-line-dark">仕組み</Link>
+            <Link href="/#features" className="hover:text-line-dark">機能</Link>
+            <Link href="/#flow" className="hover:text-line-dark">流れ</Link>
+            <Link href="/#pricing" className="hover:text-line-dark">料金</Link>
             <Link href="/#faq" className="hover:text-line-dark">FAQ</Link>
           </nav>
           <div className="hidden sm:block">
