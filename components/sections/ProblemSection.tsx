@@ -8,8 +8,8 @@ export function ProblemSection() {
       <Container>
         <SectionTitle
           eyebrow="CHECK"
-          title="お客様の声を、取りこぼしていませんか？"
-          description="満足の声があっても、投稿のきっかけや書き方がわからなければ口コミにはつながりにくいものです。"
+          title="でも、口コミはなかなか増えません。"
+          description="お客様が満足していても、文章を書くのが面倒だったり、何を書けばいいかわからなかったりして、投稿まで進まないことがよくあります。"
         />
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {problems.map((problem) => (

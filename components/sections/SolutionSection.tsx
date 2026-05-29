@@ -8,8 +8,8 @@ export function SolutionSection() {
       <Container>
         <SectionTitle
           eyebrow="SOLUTION"
-          title="バズクチコミなら、来店後の感想を自然に集められます。"
-          description="声かけの負担を減らしながら、お客様の意思を大切にした導線を用意します。"
+          title="バズクチコミなら、口コミを簡単に増やせます。"
+          description="アンケートに答えるだけで、AIが口コミ文章のたたき台を作成。お客様は内容を確認・編集して投稿できます。"
         />
         <div className="mx-auto grid max-w-5xl gap-4 md:grid-cols-5">
           {solutionSteps.map((step, index) => (
