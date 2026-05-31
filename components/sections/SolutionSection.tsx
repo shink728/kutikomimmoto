@@ -1,4 +1,4 @@
-import { solutionSteps } from "@/lib/constants";
+import Image from "next/image";
 import { Container } from "@/components/ui/Container";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 
@@ -9,15 +9,17 @@ export function SolutionSection() {
         <SectionTitle
           eyebrow="SOLUTION"
           title="バズクチコミなら、口コミを簡単に増やせます。"
-          description="アンケートに答えるだけで、AIが口コミ文章のたたき台を作成。お客様は内容を確認・編集して投稿できます。"
+          description="来店後のアンケート回答からAIが口コミ文章を作成。お客様が確認してGoogle口コミへ進める流れを、画像でわかりやすくまとめました。"
         />
-        <div className="mx-auto grid max-w-5xl gap-4 md:grid-cols-5">
-          {solutionSteps.map((step, index) => (
-            <div key={step} className="card relative border-t-4 border-t-brand text-sm leading-7 text-slate-600">
-              <span className="mb-4 block text-2xl font-bold text-brand">{String(index + 1).padStart(2, "0")}</span>
-              {step}
-            </div>
-          ))}
+        <div className="mx-auto max-w-3xl overflow-hidden rounded-[2rem] bg-white shadow-card ring-1 ring-brand/10">
+          <Image
+            src="/images/スキームセクション.png"
+            alt="バズクチコミの口コミ生成からGoogle口コミ投稿までの流れ"
+            width={887}
+            height={1774}
+            sizes="(max-width: 768px) 100vw, 768px"
+            className="h-auto w-full"
+          />
         </div>
         <p className="mx-auto mt-8 max-w-3xl rounded-2xl border border-line/15 bg-white px-6 py-4 text-sm leading-7 text-slate-600">
           特典はアンケート回答へのお礼として提供します。口コミの投稿有無や内容にかかわらず、適切な運用をご案内します。
