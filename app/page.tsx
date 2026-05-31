@@ -1,8 +1,6 @@
 import { BenefitSection } from "@/components/sections/BenefitSection";
 import { CTASection } from "@/components/sections/CTASection";
 import { FAQSection } from "@/components/sections/FAQSection";
-import { FeatureSection } from "@/components/sections/FeatureSection";
-import { FlowSection } from "@/components/sections/FlowSection";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { ImportanceSection } from "@/components/sections/ImportanceSection";
 import { PricingSection } from "@/components/sections/PricingSection";
@@ -33,9 +31,7 @@ export default function Home() {
       <ImportanceSection />
       <ProblemSection />
       <SolutionSection />
-      <FeatureSection />
       <BenefitSection />
-      <FlowSection />
       <UseCaseSection />
       <PricingSection />
       <FAQSection />

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Container } from "./Container";
-import { CTAButton } from "./CTAButton";
 
 export function SiteHeader() {
   return (
@@ -22,12 +21,6 @@ export function SiteHeader() {
             <Link href="/#pricing" className="hover:text-line-dark">料金</Link>
             <Link href="/#faq" className="hover:text-line-dark">FAQ</Link>
           </nav>
-          <div className="hidden sm:block">
-            <CTAButton>無料で相談する</CTAButton>
-          </div>
-          <Link href="/contact" className="rounded-full bg-brand px-4 py-2 text-sm font-bold text-white sm:hidden">
-            相談する
-          </Link>
         </Container>
       </div>
     </header>
