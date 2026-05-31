@@ -1,10 +1,8 @@
-import { BenefitSection } from "@/components/sections/BenefitSection";
 import { CTASection } from "@/components/sections/CTASection";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { ImportanceSection } from "@/components/sections/ImportanceSection";
 import { PricingSection } from "@/components/sections/PricingSection";
-import { ProblemSection } from "@/components/sections/ProblemSection";
 import { SolutionSection } from "@/components/sections/SolutionSection";
 import { UseCaseSection } from "@/components/sections/UseCaseSection";
 import { FloatingCTA } from "@/components/ui/FloatingCTA";
@@ -29,9 +27,7 @@ export default function Home() {
       />
       <HeroSection />
       <ImportanceSection />
-      <ProblemSection />
       <SolutionSection />
-      <BenefitSection />
       <UseCaseSection />
       <PricingSection />
       <FAQSection />
