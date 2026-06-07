@@ -3,9 +3,9 @@ import "./globals.css";
 import { SiteFooter } from "@/components/ui/SiteFooter";
 import { SiteHeader } from "@/components/ui/SiteHeader";
 
-const title = "バズクチコミ｜Googleマップの口コミを増やす集客サポート";
+const title = "クチコミターボ｜Googleマップの口コミを増やす集客サポート";
 const description =
-  "バズクチコミは、公式LINE・アンケート・AI文章生成を活用して、Googleマップの口コミを増やしやすくする実店舗向け集客サポートサービスです。口コミ文章作成、Google口コミページへの案内、アンケート回答特典、再来店促進まで支援します。";
+  "クチコミターボは、公式LINE・アンケート・AI文章生成を活用して、Googleマップの口コミを増やしやすくする実店舗向け集客サポートサービスです。口コミ文章作成、Google口コミページへの案内、アンケート回答特典、再来店促進まで支援します。";
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 export const metadata: Metadata = {

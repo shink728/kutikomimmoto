@@ -16,7 +16,7 @@ function PosterMockup() {
       <div className="px-5 py-4">
         <div className="flex items-center gap-2 text-sm font-black text-ink">
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand text-white">バ</span>
-          バズクチコミ
+          クチコミターボ
         </div>
       </div>
       <div className="bg-brand px-5 py-3 text-center text-lg font-black text-white md:text-xl">
@@ -74,7 +74,7 @@ export function HeroSection() {
         <div className="order-1">
           <div className="flex items-center gap-3 font-black">
             <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-brand text-xl text-white shadow-lg">バ</span>
-            <span className="text-2xl">バズクチコミ</span>
+            <span className="text-2xl">クチコミターボ</span>
           </div>
           <p className="mt-8 inline-flex rounded-full bg-white px-4 py-2 text-sm font-black text-brand-dark shadow-lg">
             Googleマップの口コミ、集めていますか？
@@ -87,7 +87,7 @@ export function HeroSection() {
             変わる。
           </h1>
           <p className="mt-6 max-w-md text-base font-medium leading-8 text-white/82">
-            バズクチコミは、公式LINEとAIアンケートでGoogleマップの口コミを増やしやすくする集客サポートツールです。
+            クチコミターボは、公式LINEとAIアンケートでGoogleマップの口コミを増やしやすくする集客サポートツールです。
             お客様は質問に答えるだけ。AIが自然な口コミ文章のたたき台を作ります。
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row lg:flex-col xl:flex-row">

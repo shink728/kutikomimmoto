@@ -1,0 +1,144 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: Googleマップの口コミを増やして、集客力アップをサポート
+    - generic [ref=e5]:
+      - link "ク クチコミターボ" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e7]: ク
+        - generic [ref=e8]: クチコミターボ
+      - navigation [ref=e9]:
+        - link "Googleマップ集客" [ref=e10] [cursor=pointer]:
+          - /url: /#importance
+        - link "仕組み" [ref=e11] [cursor=pointer]:
+          - /url: /#solution
+        - link "機能" [ref=e12] [cursor=pointer]:
+          - /url: /#features
+        - link "流れ" [ref=e13] [cursor=pointer]:
+          - /url: /#flow
+        - link "料金" [ref=e14] [cursor=pointer]:
+          - /url: /#pricing
+        - link "FAQ" [ref=e15] [cursor=pointer]:
+          - /url: /#faq
+  - main [ref=e16]:
+    - generic [ref=e19]:
+      - img "クチコミターボのGoogle口コミ集客サポートをまとめたトップ説明" [ref=e20]
+      - generic [ref=e21]:
+        - paragraph [ref=e22]: まずは試しやすい
+        - paragraph [ref=e23]: 業界最安値
+    - generic [ref=e26]:
+      - paragraph [ref=e27]: 口コミが増えると何が変わる？
+      - heading "Googleマップで見つけてもらいやすくなり、来店のチャンスが広がります。" [level=2] [ref=e28]
+      - paragraph [ref=e29]: Googleでは、お店の情報や距離だけでなく、口コミ数や評価も検索結果に関わる要素として扱われます。だからこそ、来店後のお客様の声を継続的に増やすことが重要です。
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - paragraph [ref=e33]: SOLUTION
+        - heading "クチコミターボなら、口コミを簡単に増やせます。" [level=2] [ref=e34]
+      - img "クチコミターボの口コミ生成からGoogle口コミ投稿までの流れ" [ref=e36]
+    - generic [ref=e38]:
+      - generic [ref=e39]:
+        - paragraph [ref=e40]: USE CASE
+        - heading "さまざまな来店型ビジネスに" [level=2] [ref=e41]
+        - paragraph [ref=e42]: 接客後のお客様の声を集めたい店舗で、無理なく活用いただけます。
+      - generic [ref=e43]:
+        - article [ref=e44]:
+          - img "飲食店で提供される食事" [ref=e46]
+          - paragraph [ref=e47]: 飲食店
+        - article [ref=e48]:
+          - img "美容室で接客するスタッフ" [ref=e50]
+          - paragraph [ref=e51]: 美容室
+        - article [ref=e52]:
+          - img "整体院で利用者と話すスタッフ" [ref=e54]
+          - paragraph [ref=e55]: 整体・整骨院
+      - generic [ref=e56]:
+        - generic [ref=e57]: エステ・サロン
+        - generic [ref=e58]: クリニック
+        - generic [ref=e59]: 宿泊施設
+        - generic [ref=e60]: 小売店
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - paragraph [ref=e64]: PRICING
+        - heading "料金プラン" [level=2] [ref=e65]
+        - paragraph [ref=e66]: 店舗規模や活用範囲に応じてお選びいただけます。
+      - generic [ref=e67]:
+        - article [ref=e68]:
+          - heading "ライトプラン" [level=3] [ref=e69]
+          - paragraph [ref=e70]: 月額 4,980円〜
+          - list [ref=e71]:
+            - listitem [ref=e72]: ✓LINEアンケート
+            - listitem [ref=e73]: ✓AI口コミ文生成
+            - listitem [ref=e74]: ✓Google口コミ導線
+            - listitem [ref=e75]: ✓アンケート回答特典配布
+          - link "相談して始める" [ref=e76] [cursor=pointer]:
+            - /url: /contact
+        - article [ref=e77]:
+          - generic [ref=e78]: おすすめ
+          - heading "スタンダードプラン" [level=3] [ref=e79]
+          - paragraph [ref=e80]: 月額 9,800円〜
+          - list [ref=e81]:
+            - listitem [ref=e82]: ✓ライトプランの全機能
+            - listitem [ref=e83]: ✓満足度分析
+            - listitem [ref=e84]: ✓AI口コミ返信文作成
+            - listitem [ref=e85]: ✓月次レポート
+          - link "相談して始める" [ref=e86] [cursor=pointer]:
+            - /url: /contact
+      - generic [ref=e88]:
+        - heading "導入サポート 初期費用 30,000円〜" [level=3] [ref=e89]
+        - paragraph [ref=e90]: LINE公式アカウント設定、店舗用QRコード・店内POP作成、初期アンケート設計を支援します。
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - paragraph [ref=e94]: FAQ
+        - heading "よくあるご質問" [level=2] [ref=e95]
+      - generic [ref=e96]:
+        - generic [ref=e97]:
+          - term [ref=e98]:
+            - generic [ref=e99]: Q.
+            - text: Googleの口コミポリシーは大丈夫ですか？
+          - definition [ref=e100]:
+            - generic [ref=e101]: A.
+            - text: Googleでは、口コミ投稿と引き換えに割引や無料提供を行うことは禁止されています。本サービスの特典は、口コミ投稿の対価ではなく、アンケート回答へのお礼として設計します。
+        - generic [ref=e102]:
+          - term [ref=e103]:
+            - generic [ref=e104]: Q.
+            - text: AIが自動でGoogleに投稿しますか？
+          - definition [ref=e105]:
+            - generic [ref=e106]: A.
+            - text: いいえ。投稿はお客様自身が内容を確認・編集したうえで行います。
+        - generic [ref=e107]:
+          - term [ref=e108]:
+            - generic [ref=e109]: Q.
+            - text: LINE公式アカウントがなくても使えますか？
+          - definition [ref=e110]:
+            - generic [ref=e111]: A.
+            - text: はい。新規作成から初期設定までサポート可能です。
+        - generic [ref=e112]:
+          - term [ref=e113]:
+            - generic [ref=e114]: Q.
+            - text: 飲食店以外でも使えますか？
+          - definition [ref=e115]:
+            - generic [ref=e116]: A.
+            - text: はい。美容室、整体、サロン、クリニック、小売店など、来店型ビジネスで利用できます。
+    - generic [ref=e120]:
+      - paragraph [ref=e121]: FREE CONSULTATION
+      - heading "まずは店舗の口コミ導線を 無料で確認しませんか？" [level=2] [ref=e122]:
+        - text: まずは店舗の口コミ導線を
+        - text: 無料で確認しませんか？
+      - paragraph [ref=e123]: 店舗の業種や現在のLINE活用状況を伺い、無理のない導入方法をご案内します。
+      - link "無料で相談する" [ref=e125] [cursor=pointer]:
+        - /url: /contact
+    - complementary "お問い合わせ導線" [ref=e126]:
+      - generic [ref=e127]:
+        - link "無料診断を申し込む" [ref=e128] [cursor=pointer]:
+          - /url: /contact
+        - link "相談する" [ref=e129] [cursor=pointer]:
+          - /url: /contact
+  - contentinfo [ref=e130]:
+    - generic [ref=e131]:
+      - generic [ref=e132]:
+        - paragraph [ref=e133]: クチコミターボ
+        - paragraph [ref=e134]: お客様の声と再来店をつなぐ、実店舗向けサービス
+      - generic [ref=e135]:
+        - link "お問い合わせ" [ref=e136] [cursor=pointer]:
+          - /url: /contact
+        - link "よくある質問" [ref=e137] [cursor=pointer]:
+          - /url: /#faq
+      - paragraph [ref=e138]: © 2026 クチコミターボ

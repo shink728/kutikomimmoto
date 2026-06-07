@@ -4,24 +4,18 @@ export function HeroSection() {
   return (
     <section className="overflow-hidden bg-gradient-to-b from-brand-pale to-white px-0 pb-8 pt-4 md:px-6 md:pb-12 md:pt-8">
       <div className="mx-auto w-full max-w-[1320px]">
-        <div className="relative left-1/2 w-[108vw] -translate-x-1/2 overflow-hidden bg-white shadow-card ring-1 ring-brand/10 sm:w-full sm:rounded-[1.5rem] md:rounded-[2rem]">
+        <div className="relative left-1/2 w-[108vw] -translate-x-1/2 bg-white shadow-card ring-1 ring-brand/10 sm:w-full sm:max-w-[864px] sm:rounded-[1.5rem] md:rounded-[2rem]">
+          <div className="absolute left-1/2 -top-2.5 z-10 -translate-x-1/2 rounded-full bg-promo px-7 py-2 text-center text-xl font-black leading-none text-ink shadow-promo ring-4 ring-white sm:-top-2 sm:px-10 sm:py-3 sm:text-3xl">
+            業界最安値
+          </div>
           <Image
-            src="/images/トップ素材.png"
-            alt="BUZZクチコミのGoogle口コミ集客サポートと5ステップ説明"
-            width={1672}
-            height={941}
-            priority
-            sizes="1320px"
-            className="hidden h-auto w-full sm:block"
-          />
-          <Image
-            src="/images/トップ縦型.png"
-            alt="BUZZクチコミのGoogle口コミ集客サポートをスマートフォン向けにまとめた縦型説明"
+            src="/images/トップ変更.png"
+            alt="クチコミターボのGoogle口コミ集客サポートをまとめたトップ説明"
             width={864}
             height={1821}
             priority
-            sizes="108vw"
-            className="h-auto w-full sm:hidden"
+            sizes="(max-width: 640px) 108vw, 864px"
+            className="h-auto w-full overflow-hidden sm:rounded-[1.5rem] md:rounded-[2rem]"
           />
         </div>
       </div>

@@ -3,8 +3,8 @@ import { ContactForm } from "@/components/ContactForm";
 import { Container } from "@/components/ui/Container";
 
 export const metadata: Metadata = {
-  title: "無料診断・お問い合わせ｜バズクチコミ",
-  description: "バズクチコミの導入や活用方法について、店舗の状況に合わせて無料診断・ご相談をご利用いただけます。",
+  title: "無料診断・お問い合わせ｜クチコミターボ",
+  description: "クチコミターボの導入や活用方法について、店舗の状況に合わせて無料診断・ご相談をご利用いただけます。",
 };
 
 export default function ContactPage() {

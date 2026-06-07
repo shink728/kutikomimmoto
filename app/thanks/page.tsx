@@ -3,7 +3,7 @@ import { Container } from "@/components/ui/Container";
 import { CTAButton } from "@/components/ui/CTAButton";
 
 export const metadata: Metadata = {
-  title: "送信完了｜バズクチコミ",
+  title: "送信完了｜クチコミターボ",
   robots: { index: false, follow: false },
 };
 
