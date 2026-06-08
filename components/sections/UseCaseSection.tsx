@@ -16,8 +16,8 @@ export function UseCaseSection() {
       <Container>
         <SectionTitle
           eyebrow="USE CASE"
-          title="さまざまな来店型ビジネスに"
-          description="接客後のお客様の声を集めたい店舗で、無理なく活用いただけます。"
+          title={"さまざまな\n来店型ビジネスに"}
+          description={"接客後のお客様の声を集めたい店舗で、\n無理なく活用いただけます。"}
         />
         <div className="grid gap-5 md:grid-cols-3">
           {photoCases.map((item) => (

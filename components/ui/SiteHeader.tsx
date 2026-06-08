@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "./Container";
 
 export function SiteHeader() {
@@ -9,9 +10,16 @@ export function SiteHeader() {
       </div>
       <div className="border-b border-slate-100 bg-white/95 backdrop-blur">
         <Container className="flex h-16 items-center justify-between md:h-20">
-          <Link href="/" className="flex items-center gap-2 font-bold text-ink">
-            <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-brand text-lg text-white">ク</span>
-            <span className="text-lg">クチコミターボ</span>
+          <Link href="/" className="block" aria-label="クチコミターボ トップページ">
+            <Image
+              src="/images/logo-kuchikomi-turbo.png"
+              alt="クチコミターボ"
+              width={735}
+              height={150}
+              priority
+              sizes="(max-width: 640px) 180px, 230px"
+              className="h-auto w-[180px] md:w-[230px]"
+            />
           </Link>
           <nav className="hidden items-center gap-4 text-xs font-medium text-slate-600 lg:flex xl:gap-7 xl:text-sm">
             <Link href="/#importance" className="hover:text-line-dark">Googleマップ集客</Link>

@@ -8,7 +8,7 @@ export function FloatingCTA() {
           href="https://kutikomi-turbo.cotechan41.workers.dev/auth/line?ref=setup"
           className="flex min-h-12 flex-1 items-center justify-center rounded-full bg-brand px-4 text-sm font-bold text-white transition hover:bg-brand-dark"
         >
-          LINEで簡単に店舗を無料診断
+          LINEで1分！店舗無料診断
         </Link>
       </div>
     </aside>

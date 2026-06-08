@@ -9,11 +9,14 @@ export function CTASection() {
           <div className="px-6 py-9 md:py-12">
             <p className="text-sm font-bold tracking-widest text-brand">FREE CONSULTATION</p>
             <h2 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-              まずは店舗の口コミ導線を
-              <br className="hidden sm:block" />無料で確認しませんか？
+              まずは店舗口コミ動線を
+              <br />
+              無料で確認しませんか？
             </h2>
             <p className="mx-auto mt-4 max-w-lg leading-8 text-slate-600">
-              店舗の業種や現在のLINE活用状況を伺い、無理のない導入方法をご案内します。
+              店舗の業種や現在のLINE活用状況を伺い、
+              <br className="hidden sm:block" />
+              無理のない導入方法をご案内します。
             </p>
             <div className="mt-7">
               <Link

@@ -8,7 +8,7 @@ export function SolutionSection() {
       <Container>
         <SectionTitle
           eyebrow="SOLUTION"
-          title="クチコミターボなら、口コミを簡単に増やせます。"
+          title={"クチコミターボなら、\n口コミを簡単に増やせます。"}
         />
         <div className="mx-auto max-w-3xl overflow-hidden rounded-[2rem] bg-white shadow-card ring-1 ring-brand/10">
           <Image
