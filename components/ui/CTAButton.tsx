@@ -1,8 +1,9 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
+import { lineFriendAddUrl } from "@/lib/constants";
 
 export function CTAButton({
-  href = "/contact",
+  href = lineFriendAddUrl,
   children = "無料で相談する",
   variant = "primary",
 }: {

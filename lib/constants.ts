@@ -1,3 +1,5 @@
+export const lineFriendAddUrl = "https://kutikomi-turbo.cotechan41.workers.dev/r/<ref_code>";
+
 export const problems = [
   "口コミを書いてほしいけど、お願いしづらい",
   "お客様が何を書けばいいかわからず離脱する",

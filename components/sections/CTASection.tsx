@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Container } from "@/components/ui/Container";
+import { lineFriendAddUrl } from "@/lib/constants";
 
 export function CTASection() {
   return (
@@ -20,7 +21,7 @@ export function CTASection() {
             </p>
             <div className="mt-7">
               <Link
-                href="/contact"
+                href={lineFriendAddUrl}
                 className="inline-flex min-h-14 items-center justify-center rounded-full bg-brand px-10 text-base font-bold text-white transition hover:bg-brand-dark"
               >
                 無料で相談する
