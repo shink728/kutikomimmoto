@@ -1,4 +1,4 @@
-export const lineFriendAddUrl = "https://kutikomi-turbo.cotechan41.workers.dev/r/test1";
+export const lineFriendAddUrl = "https://kutikomi-turbo.cotechan41.workers.dev/friend-add";
 
 export const problems = [
   "口コミを書いてほしいけど、お願いしづらい",
