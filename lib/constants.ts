@@ -1,4 +1,15 @@
 export const lineFriendAddUrl = "https://kutikomi-turbo.cotechan41.workers.dev/friend-add";
+export const lineReferralBaseUrl = "https://kutikomi-turbo.cotechan41.workers.dev/r";
+
+export function buildLineFriendAddUrl(ref?: string | string[]) {
+  const refCode = Array.isArray(ref) ? ref[0] : ref;
+
+  if (!refCode) {
+    return lineFriendAddUrl;
+  }
+
+  return `${lineReferralBaseUrl}/${encodeURIComponent(refCode)}`;
+}
 
 export const problems = [
   "口コミを書いてほしいけど、お願いしづらい",

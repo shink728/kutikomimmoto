@@ -6,7 +6,7 @@ import { PricingSection } from "@/components/sections/PricingSection";
 import { SolutionSection } from "@/components/sections/SolutionSection";
 import { UseCaseSection } from "@/components/sections/UseCaseSection";
 import { FloatingCTA } from "@/components/ui/FloatingCTA";
-import { faqs } from "@/lib/constants";
+import { buildLineFriendAddUrl, faqs } from "@/lib/constants";
 
 const faqJsonLd = {
   "@context": "https://schema.org",
@@ -18,7 +18,14 @@ const faqJsonLd = {
   })),
 };
 
-export default function Home() {
+export default async function Home({
+  searchParams,
+}: {
+  searchParams?: Promise<{ ref?: string | string[] }>;
+}) {
+  const params = await searchParams;
+  const lineUrl = buildLineFriendAddUrl(params?.ref);
+
   return (
     <main>
       <script
@@ -29,10 +36,10 @@ export default function Home() {
       <ImportanceSection />
       <SolutionSection />
       <UseCaseSection />
-      <PricingSection />
+      <PricingSection lineUrl={lineUrl} />
       <FAQSection />
-      <CTASection />
-      <FloatingCTA />
+      <CTASection lineUrl={lineUrl} />
+      <FloatingCTA lineUrl={lineUrl} />
     </main>
   );
 }

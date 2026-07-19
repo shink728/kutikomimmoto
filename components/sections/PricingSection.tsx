@@ -9,7 +9,7 @@ const planItems = [
   "アンケート回答特典配布",
 ];
 
-export function PricingSection() {
+export function PricingSection({ lineUrl }: { lineUrl: string }) {
   return (
     <section id="pricing" className="section-space bg-slate-50">
       <Container>
@@ -27,7 +27,7 @@ export function PricingSection() {
               </li>
             ))}
           </ul>
-          <CTAButton>LINEから簡単申し込み</CTAButton>
+          <CTAButton href={lineUrl}>LINEから簡単申し込み</CTAButton>
         </article>
       </Container>
     </section>
