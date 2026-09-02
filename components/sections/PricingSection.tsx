@@ -19,6 +19,10 @@ export function PricingSection({ lineUrl }: { lineUrl: string }) {
           <p className="mt-5 text-sm text-slate-600">
             月額 <span className="mx-1 text-5xl font-bold text-ink">5,000</span>円
           </p>
+          <div className="mt-3 rounded-2xl bg-slate-50 px-4 py-3 text-sm leading-6 text-slate-600">
+            <p>サービス提供期間：決済完了日より1ヶ月間</p>
+            <p className="text-xs">※以降1ヶ月ごとに自動更新</p>
+          </div>
           <ul className="my-7 grid gap-3 border-t border-slate-100 pt-6 text-sm text-slate-600 sm:grid-cols-2">
             {planItems.map((item) => (
               <li key={item}>
